@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>senorbakBolsa</title>
+<meta name="description" content="Bolsa y bitcoin en directo, tu cartera, señales y avisos al móvil.">
+<meta name="theme-color" content="#0f161d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&display=swap" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="config.js"></script>
+<script src="lightweight-charts.standalone.production.js" defer></script>
+</head>
+<body>
+<div id="app">
+  <header id="top"></header>
+  <main id="view" aria-live="polite"></main>
+</div>
+<nav id="nav" class="nav" aria-label="Menú"></nav>
+<div id="sheet"><div class="bk"></div><div class="pn" role="dialog" aria-modal="true"></div></div>
+<div id="toasts"></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
